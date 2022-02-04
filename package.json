@@ -1,0 +1,39 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "serve": "http-server src",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivadelina/npm-package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ivadelina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivadelina/npm-package/issues"
+  },
+  "homepage": "https://github.com/ivadelina/npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "http-server": "^14.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0"
+  }
+}
